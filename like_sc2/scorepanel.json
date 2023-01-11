@@ -3,7 +3,7 @@
     "Name": "ScorePanel",
     "ViewPort": {
       "xorigin": 3840,
-      "yorigin": 2150,
+      "yorigin": 2130,
       "width": 3840,
       "height": 2160,
       "alignment": "BottomRight"

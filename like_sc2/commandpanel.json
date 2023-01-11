@@ -3437,8 +3437,8 @@
                       "Type": "CommandButton",
                       "Name": "Button5",
                       "ViewPort": {
-                        "xorigin": 0,
-                        "yorigin": -160,
+                        "xorigin": 400,
+                        "yorigin": -80,
                         "width": 80,
                         "height": 80,
                         "alignment": "TopLeft"
@@ -3496,8 +3496,8 @@
                       "Type": "CommandButton",
                       "Name": "Button6",
                       "ViewPort": {
-                        "xorigin": 80,
-                        "yorigin": -160,
+                        "xorigin": 480,
+                        "yorigin": -80,
                         "width": 80,
                         "height": 80,
                         "alignment": "TopLeft"
@@ -3555,8 +3555,8 @@
                       "Type": "CommandButton",
                       "Name": "Button7",
                       "ViewPort": {
-                        "xorigin": 160,
-                        "yorigin": -160,
+                        "xorigin": 560,
+                        "yorigin": -80,
                         "width": 80,
                         "height": 80,
                         "alignment": "TopLeft"
@@ -3614,8 +3614,8 @@
                       "Type": "CommandButton",
                       "Name": "Button8",
                       "ViewPort": {
-                        "xorigin": 240,
-                        "yorigin": -160,
+                        "xorigin": 640,
+                        "yorigin": -80,
                         "width": 80,
                         "height": 80,
                         "alignment": "TopLeft"
@@ -3673,8 +3673,8 @@
                       "Type": "CommandButton",
                       "Name": "Button9",
                       "ViewPort": {
-                        "xorigin": 320,
-                        "yorigin": -160,
+                        "xorigin": 720,
+                        "yorigin": -80,
                         "width": 80,
                         "height": 80,
                         "alignment": "TopLeft"
@@ -3732,8 +3732,8 @@
                       "Type": "CommandButton",
                       "Name": "Button10",
                       "ViewPort": {
-                        "xorigin": 0,
-                        "yorigin": -240,
+                        "xorigin": 800,
+                        "yorigin": -80,
                         "width": 80,
                         "height": 80,
                         "alignment": "TopLeft"
@@ -3791,8 +3791,8 @@
                       "Type": "CommandButton",
                       "Name": "Button11",
                       "ViewPort": {
-                        "xorigin": 80,
-                        "yorigin": -240,
+                        "xorigin": 880,
+                        "yorigin": -80,
                         "width": 80,
                         "height": 80,
                         "alignment": "TopLeft"
