@@ -2,7 +2,7 @@
 
 Changes the Age2 DE HUD.
 
-like_age3
+like_age3 (unmaintained!)
 * Minimap bottom left
 * Command bar bottom right
 * Resources bar bottom left
