@@ -2,8 +2,8 @@
   "Collection": {
     "Name": "ScorePanel",
     "ViewPort": {
-      "xorigin": 900,
-      "yorigin": 2428,
+      "xorigin": 1030,
+      "yorigin": 2414,
       "width": 3840,
       "height": 2160,
       "alignment": "BottomRight"

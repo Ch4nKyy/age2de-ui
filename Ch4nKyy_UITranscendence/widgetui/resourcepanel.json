@@ -20,7 +20,7 @@
             "height": 276,
             "alignment": "TopLeft"
           },
-          "ZPlane": 1,
+          "ZPlane": 10,
           "StateMaterials": {
             "UserStates": 1,
             "UserState0": {
@@ -598,7 +598,7 @@
                   "height": 32,
                   "alignment": "CentreCentre"
                 },
-                "ZPlane": 10,
+                "ZPlane": 21,
                 "StateMaterials": {
                   "StateNormal": {
                     "Font": {

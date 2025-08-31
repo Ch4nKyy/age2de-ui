@@ -2,7 +2,7 @@
   "Collection": {
     "Name": "MenuPanel",
     "ViewPort": {
-      "xorigin": 215,
+      "xorigin": 335,
       "yorigin": 2320,
       "width": 756,
       "height": 276,
@@ -19,7 +19,7 @@
           "height": 276,
           "alignment": "TopLeft"
         },
-        "ZPlane": 11,
+        "ZPlane": 1,
         "StateMaterials": {
           "UserStates": 1,
           "UserState0": {
