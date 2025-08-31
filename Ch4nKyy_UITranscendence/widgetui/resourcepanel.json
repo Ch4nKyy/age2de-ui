@@ -1,0 +1,715 @@
+{
+  "Collection": {
+    "Name": "ResourcePanel",
+    "ViewPort": {
+      "xorigin": 1865,
+      "yorigin": 1705,
+      "width": 1935,
+      "height": 228,
+      "alignment": "BottomCenter"
+    },
+    "Widgets": [
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background",
+          "ViewPort": {
+            "xorigin": 0,
+            "yorigin": 0,
+            "width": 1750,
+            "height": 276,
+            "alignment": "TopLeft"
+          },
+          "ZPlane": 1,
+          "StateMaterials": {
+            "UserStates": 1,
+            "UserState0": {
+              "Material": "CivAsiaResourcePanel"
+            }
+          },
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "Base",
+                "Name": "Wood",
+                "ViewPort": {
+                  "xorigin": 395,
+                  "yorigin": 57,
+                  "width": 84,
+                  "height": 84,
+                  "alignment": "CentreCentre"
+                },
+                "ZPlaneLocalOffset": 1,
+                "Help": 42011,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "ResourceWood"
+                  }
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "Workers",
+                      "ViewPort": {
+                        "xorigin": 4,
+                        "yorigin": 45,
+                        "width": 70,
+                        "height": 42,
+                        "alignment": "TopLeft"
+                      },
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 40,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 1
+                            },
+                            "TextOutlineWidth": 0.05,
+                            "TextOutlineColor": {
+                              "r": 0,
+                              "g": 0,
+                              "b": 0,
+                              "a": 1
+                            }
+                          }
+                        }
+                      },
+                      "Help": 13362,
+                      "Text": "30",
+                      "TextAnchor": "TopRight",
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "WoodStorage",
+                "ViewPort": {
+                  "xorigin": 441,
+                  "yorigin": 55,
+                  "width": 110,
+                  "height": 34,
+                  "alignment": "CentreLeft"
+                },
+                "Help": 42202,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 41,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                      }
+                    }
+                  }
+                },
+                "Text": "10000",
+                "TextAnchor": "TopLeft",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Base",
+                "Name": "Food",
+                "ViewPort": {
+                  "xorigin": 595,
+                  "yorigin": 57,
+                  "width": 84,
+                  "height": 84,
+                  "alignment": "CentreCentre"
+                },
+                "ZPlaneLocalOffset": 1,
+                "Help": 42010,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "ResourceFood"
+                  }
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "Workers",
+                      "ViewPort": {
+                        "xorigin": 4,
+                        "yorigin": 45,
+                        "width": 70,
+                        "height": 42,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": 13363,
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 40,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 1
+                            },
+                            "TextOutlineWidth": 0.05,
+                            "TextOutlineColor": {
+                              "r": 0,
+                              "g": 0,
+                              "b": 0,
+                              "a": 1
+                            }
+                          }
+                        }
+                      },
+                      "Text": "30",
+                      "TextAnchor": "TopRight",
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "FoodStorage",
+                "ViewPort": {
+                  "xorigin": 641,
+                  "yorigin": 55,
+                  "width": 110,
+                  "height": 34,
+                  "alignment": "CentreLeft"
+                },
+                "Help": 42201,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 41,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                      }
+                    }
+                  }
+                },
+                "Text": "10000",
+                "TextAnchor": "TopLeft",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Base",
+                "Name": "Gold",
+                "ViewPort": {
+                  "xorigin": 795,
+                  "yorigin": 57,
+                  "width": 84,
+                  "height": 84,
+                  "alignment": "CentreCentre"
+                },
+                "ZPlaneLocalOffset": 1,
+                "Help": 42012,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "ResourceGold"
+                  }
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "Workers",
+                      "ViewPort": {
+                        "xorigin": 4,
+                        "yorigin": 45,
+                        "width": 70,
+                        "height": 42,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": 13364,
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 40,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 1
+                            },
+                            "TextOutlineWidth": 0.05,
+                            "TextOutlineColor": {
+                              "r": 0,
+                              "g": 0,
+                              "b": 0,
+                              "a": 1
+                            }
+                          }
+                        }
+                      },
+                      "Text": "30",
+                      "TextAnchor": "TopRight",
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "GoldStorage",
+                "ViewPort": {
+                  "xorigin": 841,
+                  "yorigin": 55,
+                  "width": 110,
+                  "height": 34,
+                  "alignment": "CentreLeft"
+                },
+                "Help": 42203,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 41,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                      }
+                    }
+                  }
+                },
+                "Text": "10000",
+                "TextAnchor": "TopLeft",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Base",
+                "Name": "Stone",
+                "ViewPort": {
+                  "xorigin": 995,
+                  "yorigin": 57,
+                  "width": 84,
+                  "height": 84,
+                  "alignment": "CentreCentre"
+                },
+                "ZPlaneLocalOffset": 1,
+                "Help": 42013,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "ResourceStone"
+                  }
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "Workers",
+                      "ViewPort": {
+                        "xorigin": 4,
+                        "yorigin": 45,
+                        "width": 70,
+                        "height": 42,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": 13365,
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 40,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 1
+                            },
+                            "TextOutlineWidth": 0.05,
+                            "TextOutlineColor": {
+                              "r": 0,
+                              "g": 0,
+                              "b": 0,
+                              "a": 1
+                            }
+                          }
+                        }
+                      },
+                      "Text": "30",
+                      "TextAnchor": "TopRight",
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "StoneStorage",
+                "ViewPort": {
+                  "xorigin": 1047,
+                  "yorigin": 55,
+                  "width": 110,
+                  "height": 34,
+                  "alignment": "CentreLeft"
+                },
+                "Help": 42204,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 41,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                      }
+                    }
+                  }
+                },
+                "Text": "10000",
+                "TextAnchor": "TopLeft",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Base",
+                "Name": "Population",
+                "ViewPort": {
+                  "xorigin": 159,
+                  "yorigin": 57,
+                  "width": 86,
+                  "height": 84,
+                  "alignment": "CentreCentre"
+                },
+                "ZPlaneLocalOffset": 1,
+                "Help": 4313,
+                "StateMaterials": {
+                  "UserStates": 2,
+                  "UserState0": {
+                    "Material": "Population"
+                  },
+                  "UserState1": {
+                    "Material": "None",
+                    "TextColor": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1,
+                      "a": 1
+                    }
+                  }
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "Workers",
+                      "ViewPort": {
+                        "xorigin": 5,
+                        "yorigin": 45,
+                        "width": 70,
+                        "height": 42,
+                        "alignment": "TopLeft"
+                      },
+                      "Help": 300322,
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 0,
+                            "PointSize": 40,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1,
+                              "a": 1
+                            },
+                            "TextOutlineWidth": 0.05,
+                            "TextOutlineColor": {
+                              "r": 0,
+                              "g": 0,
+                              "b": 0,
+                              "a": 1
+                            }
+                          }
+                        }
+                      },
+                      "Text": "30",
+                      "TextAnchor": "TopRight",
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "PopulationCount",
+                "ViewPort": {
+                  "xorigin": 211,
+                  "yorigin": 55,
+                  "width": 147,
+                  "height": 34,
+                  "alignment": "CentreLeft"
+                },
+                "Help": 4313,
+                "StateMaterials": {
+                  "UserStates": 3,
+                  "UserState0": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 41,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                      }
+                    }
+                  },
+                  "UserState1": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 41,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 1,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                      }
+                    }
+                  },
+                    "UserState2": {
+                      "Font": {
+                        "FontIndex": 0,
+                        "PointSize": 41,
+                        "Style": "Normal",
+                        "TextColor": {
+                          "r": 1,
+                          "g": 0,
+                          "b": 0,
+                          "a": 1
+                        }
+                      }
+                  }
+                },
+                "Text": "300/300",
+                "TextAnchor": "TopLeft",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Base",
+                "Name": "PopulationFlash",
+                "ViewPort": {
+                  "xorigin": 197,
+                  "yorigin": 60,
+                  "width": 156,
+                  "height": 80,
+                  "alignment": "CentreLeft"
+                },
+                "ZPlaneLocalOffset": 1,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "FlatColorWithAlpha",
+                    "Color": {
+                      "r": 1,
+                      "g": 0,
+                      "b": 0,
+                      "a": 0.66
+                    }
+                  }
+                },
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "Idle",
+                "ClickSound": "?button_ui",
+                "ViewPort": {
+                  "xorigin": 57,
+                  "yorigin": 0,
+                  "width": 93,
+                  "height": 139,
+                  "alignment": "TopCentre"
+                },
+                "ZPlaneLocalOffset": 1,
+                "Radius": 25,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "IdleVillagerNormal"
+                  },
+                  "StateHover": {
+                    "Material": "IdleVillagerHover"
+                  },
+                  "StatePressed": {
+                    "Material": "IdleVillagerActive"
+                  },
+                  "StateDisabled": {
+                    "Material": "IdleVillagerDisabled"
+                  }
+                },
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Label",
+                "Name": "IdleWorkers",
+                "ViewPort": {
+                  "xorigin": 55,
+                  "yorigin": 61,
+                  "width": 60,
+                  "height": 32,
+                  "alignment": "CentreCentre"
+                },
+                "ZPlane": 10,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Font": {
+                      "FontIndex": 0,
+                      "PointSize": 39,
+                      "Style": "Normal",
+                      "TextColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                      },
+                      "TextOutlineWidth": 0.01,
+                      "TextOutlineColor": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                      }
+                    }
+                  }
+                },
+                "TextAnchor": "CentreCentre",
+                "ChildWidgets": []
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "AgeUp",
+                "ClickSound": "?button_ui",
+                "ViewPort": {
+                  "xorigin": 1200,
+                  "yorigin": 62,
+                  "width": 141,
+                  "height": 122,
+                  "alignment": "CentreCentre"
+                },
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "AgeupCastleAge"
+                  },
+                  "StateNormal": {
+                    "Material": "AgeupCastleAge"
+                  },
+                  "StateHover": {
+                    "Material": "AgeupCastleAge"
+                  }
+                }
+              }
+            },
+            {
+              "Widget": {
+                "Type": "ProgressBar",
+                "Name": "AgeBar",
+                "ViewPort": {
+                  "xorigin": 1250,
+                  "yorigin": 57,
+                  "width": 378,
+                  "height": 52,
+                  "alignment": "CentreLeft"
+                },
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "AgeBar"
+                  }
+                },
+                "ChildWidgets": [
+                  {
+                    "Widget": {
+                      "Type": "Label",
+                      "Name": "AgeTextLabel",
+                      "ViewPort": {
+                        "xorigin": 0,
+                        "yorigin": 0,
+                        "width": 380,
+                        "height": 50,
+                        "alignment": "TopLeft"
+                      },
+                      "StateMaterials": {
+                        "StateNormal": {
+                          "Font": {
+                            "FontIndex": 2,
+                            "PointSize": 44,
+                            "Style": "Normal",
+                            "TextColor": {
+                              "r": 1,
+                              "g": 0.84,
+                              "b": 0,
+                              "a": 1
+                            },
+                            "TextOutlineWidth": 0.05,
+                            "TextOutlineColor": {
+                              "r": 0,
+                              "g": 0,
+                              "b": 0,
+                              "a": 1
+                            }
+                          }
+                        }
+                      },
+                      "TextAnchor": "BottomCentre",
+                      "ChildWidgets": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

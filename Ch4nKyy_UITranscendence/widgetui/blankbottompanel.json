@@ -1,0 +1,70 @@
+{
+  "Collection": {
+    "Name": "BlankBottomPanel",
+    "ViewPort": {
+      "xorigin": 1920,
+      "yorigin": 2360,
+      "width": 3840,
+      "height": 73,
+      "alignment": "BottomCentre"
+    },
+    "Widgets": [{
+      "Widget": {
+        "Type": "Base",
+        "Name": "BlankBottom",
+        "ViewPort": {
+          "xorigin": 0,
+          "yorigin": 73,
+          "width": 3840,
+          "height": 73,
+          "alignment": "BottomLeft"
+        },
+        "ZPlane": 0,
+        "Image": {
+          "xorigin": 1920,
+          "yorigin": 0,
+          "width": 3840,
+          "height": 73,
+          "noclip": true,
+          "alignment": "TopCentre"
+        },
+        "Wrap": {
+          "width": 360,
+          "height": 0
+        },
+        "StateMaterials": {
+          "UserStates": 9,
+          "UserState0": {
+            "Material": "CivAfriBottombar"
+          },
+          "UserState1": {
+            "Material": "CivAsiaBottombar"
+          },
+          "UserState2": {
+            "Material": "CivMediBottombar"
+          },
+          "UserState3": {
+            "Material": "CivMesoBottombar"
+          },
+
+          "UserState4": {
+            "Material": "CivOrieBottombar"
+          },
+          "UserState5": {
+            "Material": "CivSlavBottombar"
+          },
+          "UserState6": {
+            "Material": "CivWestBottombar"
+          },
+          "UserState7": {
+            "Material": "CivNomadBottombar"
+          },
+          "UserState8": {
+            "Material": "CivSeasBottombar"
+          }
+        },
+        "ChildWidgets": []
+      }
+    }]
+  }
+}
