@@ -1,22 +1,20 @@
 {"Author":"Ch4nKyy","CacheStatus":0,"Description":"Transparent and centered UI.
 
-TODO
-
-Every relevant RTS game has the minimap on the left instead of the right, so I want to follow this.
-However, I think a centered minimap is even more advantageous. I didn't put it dead center,
-because I think the unit selection panel is also important to be centered, e.g. for ghosting micro.
+SC2 and WC3 have the minimap on the left and command panel on the right, so I want to follow this.
+However, I think a centered minimap is even more advantageous.
 Also, I prefer a clustered UI instead of spreading it out to the corners.
 
-Minimap bottom is center, left.
+Minimap is bottom center, left.
 Unit selection is bottom center, right.
 Resources and technology progress are above them.
 Idle villager and house warning are very central, too.
 
-Unit groups are displayed above the minimap, but only 5. I don't use more than 5 groups for units,
-and I'm not interested to see building groups. I might even disable them, because I don't like that
+Unit groups are displayed above the command panel, but only 5.
+I don't use more than 5 groups for units, and I'm not interested to see building groups.
+I usually even disable them, because I don't like that
 they are clickable and I never look at them consciously.
-It was a bit annoying to get them over the minimap, because I had to increase the size of the whole
-command panel and now the resource panel is not clickable anymore, but I don't click that anyway.
+It is a bit annoying to position them outside the unit selection section. I had to increase
+the size of the whole command panel.
 
 Map orbit based on https://www.ageofempires.com/mods/details/22778.
 Better resource panel and idle villager warning based on 

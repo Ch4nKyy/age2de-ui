@@ -3404,7 +3404,7 @@
                 "Type": "Anchor",
                 "Name": "GroupButtons",
                 "Anchor": {
-                  "xorigin": 1880,
+                  "xorigin": 400,
                   "yorigin": 0,
                   "alignment": "TopRight"
                 },
