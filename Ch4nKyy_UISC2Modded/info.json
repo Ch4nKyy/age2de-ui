@@ -1,0 +1,12 @@
+{"Author":"Ch4nKyy","CacheStatus":0,"Description":"UI like SC2, but with resource bar above the minimap.
+
+MAKE SURE TO ALSO USE [Ch4nKyy] Transparent HUD!
+
+I mainly play SC2, so I want a similar UI layout in AoE2.
+In SC2, I didn't like that the resource bar is in the opposite corner of the minimap, but I found
+an easy way to put it above the minimap, so I copied this style here.
+
+I like the technologyprogresspanel to be close to the center of the screen, because I think it
+helps me not forget villager and military production. It might be a bit too close though and cause
+missclicks. I'll have to test it. Alternatively, I could put it where the control group icons are,
+or above the minimap, but then the first 1-2 items are really in the far peripheral vision.","Title":"[Ch4nKyy] UI SC2 Modded"}
