@@ -1,0 +1,16 @@
+{"Author":"Ch4nKyy","CacheStatus":0,"Description":"Semi-centered UI.
+
+MAKE SURE TO ALSO USE [Ch4nKyy] Transparent HUD!
+
+SC2 and WC3 have the minimap on the left and command panel on the right, so I want to follow this.
+However, I think a centered minimap is even more advantageous.
+Also, I prefer a clustered UI instead of spreading it out to different corners.
+
+I think a fully centered minimap could be even cooler.
+
+Unit groups are displayed above the command panel, but only 5 here.
+I don't use more than 5 groups for units, and I'm not interested to see building groups.
+I usually even disable them, because I don't like that
+they are clickable in Age2 and I rarely look at them.
+It is a bit annoying to position them outside the unit selection section. I had to increase
+the size of the whole command panel.","Title":"[Ch4nKyy] UI Semi-Center"}
